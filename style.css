@@ -1,0 +1,88 @@
+* {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                }
+                body {
+                    font-family: 'Oswald', sans-serif;
+                    min-height: 50vh;
+                    padding-top: 50px;
+                    display: flex;
+                    flex-flow: column;
+                    gap: 1rem;
+                    align-items: center;
+                }
+                .counter {
+                    width: 400px;
+                    height: 50px;
+                    display: flex;
+                    text-align: center;
+                    align-items: baseline;
+                    border-radius: 5px;
+                    
+                }
+                
+                .counter > * {
+                    height: 100%;
+                    flex: 1;
+                    font-size: 32px;
+                }
+                .head-counter {
+                    text-align: center;
+                }
+                
+                .head-counter h1 {
+                    margin-bottom: 20px;
+                }
+                
+                .head-counter button {
+                    margin-bottom: 20px;
+                }
+                button {
+                    font-size: 1.5em;
+                    margin: 0 5px;
+                    padding: 5px 15px;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 5px;
+                }
+                
+                .btn-inc {
+                    background-color: #F6D6D6;
+                    border-color: #f5b5b5;
+                }
+                
+                .btn-dec {
+                    background-color: #F6F7C4;
+                    border-color: #eef07a;
+                }
+                
+                .btn-clr {
+                    background-color: #A1EEBD;
+                    border-color: #57db87;
+                }
+                
+                .btn-rem {
+                    background-color: rgb(254, 179, 152);
+                    border-color: coral;
+                }
+                
+                .btn-add {
+                    font-size: 20px;
+                    background-color: peachpuff;
+                    border-color: rgb(223, 146, 79);
+                    padding: 10px;
+                }
+                
+                /* Hover effects */
+                button:hover {
+                    opacity: 0.8;
+                    
+                }
+            
+                .btn-add:hover {
+                    background-color: lightcoral;
+                    border-color: darkorange;
+                    color: white; 
+                }
+                
